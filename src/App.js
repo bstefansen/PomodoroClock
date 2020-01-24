@@ -157,7 +157,8 @@ class App extends React.Component {
       boxShadow: "3px 3px 20px black",
       border: "solid 5px silver",
       borderRadius: "2em",
-      width: "50%",
+      width: "auto",
+      maxWidth: "900px",
       margin: "auto",
       marginTop: ".5em",
       padding: "1em",
@@ -179,7 +180,8 @@ class App extends React.Component {
     }
     const displayStyle = {
       backgroundColor: "green",
-      width: "7em",
+      width: "auto",
+      maxWidth: "7em",
       margin: "auto",
       padding: "0.25em",
       border: "solid 3px black",
@@ -189,10 +191,10 @@ class App extends React.Component {
     const gridStyle = {
       display: "grid",
       gridTemplateColumns: "1fr 1fr",
-      margin: "2em",
+      margin: "auto",
       marginBottom: "0em",
       marginTop: "0em",
-      padding: "0em"
+      padding: "0em",
     }
     return(
       <div style={bodyStyle}>
