@@ -11,7 +11,7 @@ I built this project to better understand React state management
 - Users can pause and reset the timer
 
 ## Demo
-Link to the <a target="https://bstefansen.github.io/PomodoroClock/">Production Build</a>
+Link to the <a href="https://bstefansen.github.io/PomodoroClock/">Production Build</a>
 
 ## License
 This project is licensed under the MIT License
